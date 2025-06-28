@@ -1,0 +1,54 @@
+
+$primary-color: #2c3e50;
+$secondary-color: #3498db;
+$font-stack: Arial, sans-serif;
+
+body {
+  font-family: $font-stack;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: $primary-color;
+}
+
+header {
+  background-color: $primary-color;
+  color: white;
+  padding: 1rem;
+
+  h1 {
+    margin: 0;
+  }
+
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+
+    li a {
+      color: white;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+main {
+  padding: 2rem;
+
+  section {
+    margin-bottom: 2rem;
+  }
+}
+
+footer {
+  background-color: $primary-color;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
