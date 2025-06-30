@@ -3,6 +3,7 @@ node_modules/
 
 # Build output (compiled CSS)
 dist/css/
+dist/font*/
 
 # Optional: OS-specific files
 .DS_Store        # macOS
