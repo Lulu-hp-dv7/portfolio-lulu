@@ -3,7 +3,6 @@ node_modules/
 src/font*
 src/css
 
-
 # Optional: OS-specific files
 .DS_Store        # macOS
 Thumbs.db        # Windows

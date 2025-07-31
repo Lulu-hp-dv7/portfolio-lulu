@@ -1,12 +1,13 @@
 {
   "name": "portfolio-lulu",
   "version": "1.0.0",
-  "description": "",
+  "description": "demo digital PortFolio",
   "main": "index.js",
-  "homepage": "https://lulu.github.io/portfolio-lulu",
+  "homepage": "https://Lulu-hp-dv7.github.io/portfolio-lulu",
   "scripts": {
-    "dev": "node-sass -w scss -o dist/css --recursive",
-    "deploy": "gh-pages -d dist"
+    "dev": "node-sass -w scss -o docs/css --recursive",
+    "build": "./scripts/build.sh",
+    "deploy": "gh-pages -d docs"
   },
   "author": "",
   "license": "ISC",
