@@ -4,7 +4,7 @@ src/font*
 src/css
 
 # Build output (compiled CSS)
-dist
+docs
 
 # Optional: OS-specific files
 .DS_Store        # macOS
