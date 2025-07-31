@@ -1,10 +1,11 @@
-@import url(../fontawesome-free-6.4.2-web/css/all.css);
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css");
 
 $primary-color: #444;
 $secondary-color: #eece1c;
 $font-stack: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 $show-home-image: true;
-$home-image: url(../images/classroom.jpg);
+$home-image: url(../assets/images/classroom.jpg);
+$profil-image: url(../assets/images/classroom.jpg);
 $background-opacity: 0.7;
 
 @mixin easeOut() {

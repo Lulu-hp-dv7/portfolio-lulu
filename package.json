@@ -3,14 +3,17 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  
+  "homepage": "https://lulu.github.io/portfolio-lulu",
   "scripts": {
-    "sass": "node-sass -w scss -o dist/css --recursive",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node-sass -w scss -o dist/css --recursive",
+    "deploy": "gh-pages -d dist"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^9.0.0"
+  },
+  "dependencies": {
+    "gh-pages": "^6.3.0"
   }
 }

@@ -82,7 +82,7 @@
         .portrait {
             height: 250px;
             width: 250px;
-            background: url(../images/profil.png);
+            background: $profil-image;
             background-size: cover;
             border-radius: 50%;
             border: 3px solid $secondary-color;
